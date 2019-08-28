@@ -5,25 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
     <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500i&display=swap" rel="stylesheet"> 
+    <!--se puede colocar etiquetas desde html pero no es recomendado
+    <style>
+    a{
+        color: aqua;
+        font-size: 24px;
+    }
+    </style>
+    -->
 </head>
 <main>
     <body>
-        <header>
-            <img src="img/LOGO.png" alt="logo de pagina"height="200">
+        <header class="encabezado">
+                <img src="img/LOGO.png" alt="logo de pagina"height="200">
+                <h1>Hoja de vida</h1>
+            <nav>
+                    <a href="index.html" class="cajas">Inicio</a>
+                    <a href="educacion.html" class="cajas">Educación</a>
+                    <a href="experiencia.html" class="cajas">Experiencia</a>
+            </nav>
         </header>
+                 
         <hr>
+       
         <div>
-            <h1>Hoja de vida</h1>
-            <h3>NOMBRE: Yeison Esteban Oquendo manco</h3>
+            
+            <h3 id="nombre">NOMBRE: Yeison Esteban Oquendo manco</h3>
             <h3>FECHA DE NACIMIENTO:18-05-93</h3>
             <h3>LUGAR NACIMIENTO: Dabeiba Antioquia</h3>
         </div>
-        <hr>
-        <div>
-            <a href="index.html">Inicio</a>|<a href="educacion.html">Educación</a>|<a href="experiencia.html">Experiencia</a>
-        </div>
-        <hr>
+      
+        
         <div>
             <h2>Informacion Personal</h2>
             <img src="img/png.png" alt="hoja de vida" height="200">
@@ -46,7 +61,7 @@
             </ul>        
         </div>
         <hr>
-        <footer>
+        <footer class="cajas">
             <p>Derechos reservados| Email:<a href="mailto:yoquend2@gmail.com">Escribeme</a>| Telefono:350.897.80.24| facebook <a href="https://www.facebook.com/" target="_blank">facebook</a></p>
         </footer>
     
