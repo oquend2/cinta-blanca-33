@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<main>
+    <body>
+        <header>
+            <img src="" alt="logo de pagina">
+        </header>
+        <hr>
+        <div>
+            <h1>Educación</h1>
+           
+        </div>
+        <hr>
+        <div>
+            <nav>
+              <a href="index.html">Inicio</a>
+              <a href="educacion.html">Educación</a>
+              <a href="experiencia.html">Experiencia</a>
+            </nav>
+        </div>
+        <hr>
+        <div>
+            <h2>Educacion recibida</h2>
+            <table border="1"> 
+                <!--estudiar tablas-->
+
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Institucion</th>
+                        <th>Lugar</th>
+                        <th>Titulo</th>
+                        <th>¿culminó?</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                      <td>2009</td>
+                      <td>uraba</td>
+                      <td>apartado</td>
+                      <td>bachiller</td>
+                      <td>si</td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>tdea</td>
+                        <td>medellin</td>
+                        <td>ingeniero</td>
+                        <td>si</td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+            <br>
+            <form action="">
+                <fieldset>
+                    <legend><h2>Agregar Estudios</h2></legend>
+                    
+                    <label for="anos">Año:</label>
+                    <select name="anos" required>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        
+                    </select>
+                    <br>
+                    <br>
+                    <label for="inst">Institución:</label>
+                    <!--input es para crear un cuadro de texto ("----"aqui decidimos que va contener la caja de texto, texto, contraseñas...)-->
+                    <input type="text" name=inst placeholder="Ingrese institución" required>
+                    <br>
+                    <br>
+                    <label for="edad">Edad:</label>
+                    <input type="number" name="edad" placeholder="Ingrese su edad"required>
+                    <br>
+                    <br>
+                    <label for="pass">Contraseña:</label>
+                    <input type="password" name="pass" placeholder="Ingrese su contraseña" minlength="1" maxlength="8" required>
+                    <br>
+                    <br>
+                    <input type="date" placeholder="Ingrese fecha" required>
+                    <br>
+                    <br>
+                    <input type="email" placeholder="Ingrese su email" required>
+                    <br>
+                    <br>
+                    <label for="textComen">Comentario:</label>
+                    <br>
+                    <textarea name="textComen" id="" cols="10" rows="5"></textarea>
+                    <br>
+                    <br>
+                    <input type="radio" name="Genero" value="F">Femenino
+                    <input type="radio" name="Genero" value="M">Masculino
+                    <input type="radio" name="Genero" value="O">Otro
+                    <br>
+                    <br>
+                    <h3>Culmino</h3>
+                    <input type="checkbox">si
+                    <input type="checkbox">no
+                    <br>
+                    <br>
+                    <input type="submit" name="enviar">
+                    <button onclick="">Enviar</button>
+
+                </fieldset>
+                   
+            </form>
+            <form action="">
+                <fieldset>
+                    <legend><h2>Contactenos</h2></legend>
+                    
+                    <label for="Nombre">Nombre Completo</label>
+                    <input type="text" name="Nombre" required>
+                    <br><br>
+                    <label for="Telefono">Telefono</label>
+                    <input type="text" name="Telefono" required>
+                    <br><br>
+                    <label for="email">Correo</label>
+                    <input type="text" name="email" required>
+                    <br><br>
+                    <label for="textComen">Comentarios</label>
+                    <br>
+                    <textarea name="textComen" id="" cols="10" rows="5" required></textarea>
+                    <br><br>
+                    <h3>Acepta terminos y condiciones</h3>
+                    <input type="radio" name="terminos" value="si"required>si
+                    <input type="radio" name="terminos" value="no"required>no
+                    <input type="submit" name="enviar"value="Enviar">
+                </fieldset>
+
+            </form>    
+        </div>
+      
+        <hr>
+        <footer>
+            <p>Derechos reservados| Email:<a href="mailto:yoquend2@gmail.com">Escribeme</a>| Telefono:350.897.80.24| facebook <a href="https://www.facebook.com/" target="_blank">facebook</a></p>
+        </footer>
+    
+    </body>
+    
+</main>
+</html>
